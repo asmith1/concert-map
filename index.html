@@ -7,15 +7,29 @@
   </head>
   <body>
     <!--<h3>Concerts Near Me</h3>-->
-<!--     <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="row"> . </div> <!-- literally a hack cuz i couldnt get padding lol -->
+    <div class="row">
+      <div class="col-sm-4">
+        <div id="dist-select" class="card" style="width: 20rem;">
+          <div class="card-body">
+            <h4 class="card-title">How far are you willing to travel?</h4>
+            <p class="card-text">How far off can the concerts be?</p>
+            <a href="#" class="btn btn-default">1 week</a>
+            <a href="#" class="btn btn-default">2 weeks</a>
+            <a href="#" class="btn btn-default">1 month</a>
+            <a href="#" class="btn btn-default">2 months</a>
+            <a href="#" class="btn btn-default">3 months</a>
+            <a href="#" class="btn btn-default">4 months</a>
+          </div>
+        </div>
       </div>
-    </div> -->
-    <div id="map"></div>
+
+      <div class="col-sm-8">
+         <div id="map"></div>
+      </div>
+    </div>
+
+    </div>
     <script src = "get_map.js"></script>
     <script async defer
     src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCj1KCBG39ayZOkVnx9VX_9jHQW6zZgD4k&callback=initMap">
