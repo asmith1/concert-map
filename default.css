@@ -1,0 +1,11 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding-left: 0;
+       	font-family: Verdana, Geneva, sans-serif;
+       	text-align: center;
+      }
+      #map {
+        height: 100%;
+        width: 100%;
+      }
