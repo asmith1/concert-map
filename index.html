@@ -6,39 +6,24 @@
     <link rel = "stylesheet" href = "default.css">
   </head>
   <body>
-<!--     <style> {
-      height: 100%;
-      margin: 0;
-      padding-left: 5%;
-      padding-top: 20%
-      font-family: Verdana, Geneva, sans-serif;
-      text-align: center;
-      background-color: #b3d1ff;
-    }</style> -->
-    <!--<h3>Concerts Near Me</h3>-->
-<!--     <div class="row">
-      <div class="col-sm-4"> -->
-        <div class="card" style="width: 20rem;">
-          <div class="card-body">
-            <h4 class="card-title">How far are you willing to travel?</h4>
+    <div class="card" style="width: 20rem;">
+      <div class="card-body">
+        <h4 class="card-title">How far are you willing to travel?</h4>
 
-            <input id="ex8" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
+        <input id="ex8" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
 
-            <p class="card-text">How far off can the concerts be?</p>
-            <a href="#" class="btn btn-default">1 week</a>
-            <a href="#" class="btn btn-default">2 weeks</a>
-            <a href="#" class="btn btn-default">1 month</a>
-            <a href="#" class="btn btn-default">2 months</a>
-            <a href="#" class="btn btn-default">3 months</a>
-            <a href="#" class="btn btn-default">4 months</a>
-          </div>
-        </div>
-<!--       </div> -->
-
-<!--       <div class="col-sm-8"> -->
-         <div id="map"></div>
-<!--       </div> -->
-<!--     </div> -->
+        <p class="card-text">How far off can the concerts be?</p>
+        <a href="#" class="btn btn-outline-primary" data-toggle="button" aria-pressed="false">1 week</a> <!-- not sure if this does anyting - feel free to remove -->
+        <a href="#" class="btn btn-outline-primary" data-toggle="button" aria-pressed="false">2 weeks</a>
+        <a href="#" class="btn btn-outline-primary">1 month</a>
+        <a href="#" class="btn btn-outline-primary">2 months</a>
+        <a href="#" class="btn btn-outline-primary">3 months</a>
+        <a href="#" class="btn btn-outline-primary">4 months</a>
+        <br>
+        <a href="#" class="btn btn-primary">Confirm</a>
+      </div>
+    </div>
+    <div id="map"></div>
 
     </div>
     <script src = "get_map.js"></script>
